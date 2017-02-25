@@ -5,7 +5,9 @@ hwatcher creates passive monitors for specified directories and upload new creat
 
 You can consider this a tiny version of dropbox for developers that takes files automatically to S3 to be part of other complex processes on AWS. This is a micro step towards automation.
 
+
 <b>hwatcher currently supports 3 actions:</b>
+
 - Start a new daemon.
 
 python hwatcher.py start -dir \<dir-to-watch\>
@@ -18,7 +20,8 @@ python hwatcher.py kill -wid \<watcher-id\>
 
 python hwatcher.py list
 
-Dependencies:
+
+<b>Dependencies:</b>
 - Python 2.7
 - pyinotify https://github.com/seb-m/pyinotify
 - boto3 https://github.com/boto/boto3
