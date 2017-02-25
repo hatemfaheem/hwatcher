@@ -7,12 +7,15 @@ You can consider this a tiny version of dropbox for developers that takes files 
 
 hwatcher currently supports 3 actions:
 - Start a new daemon.
+
 python hwatcher.py start -dir <dir-to-watch>
 
 - Killing a daemon.
+
 python hwatcher.py kill -wid <watcher-id>
 
 - Listing all daemons running on our machine.
+
 python hwatcher.py list
 
 Dependencies:
