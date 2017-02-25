@@ -26,6 +26,8 @@ python hwatcher.py list
 - pyinotify https://github.com/seb-m/pyinotify
 - boto3 https://github.com/boto/boto3
 
+<b>Notes:</b>
+Update daemon.py with your AWS credintials.
 
 See it in action
 https://www.youtube.com/watch?v=VOtc-XBi8C8
