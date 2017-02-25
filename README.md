@@ -10,4 +10,7 @@ hwatcher currently supports 3 actions:
 - Killing a daemon.
 - Listing all daemons running on our machine.
 
-This project is based on https://github.com/seb-m/pyinotify
+Dependencies:
+- Python 2.7
+- pyinotify https://github.com/seb-m/pyinotify
+- boto3 https://github.com/boto/boto3
